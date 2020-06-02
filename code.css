@@ -1,0 +1,63 @@
+/**
+*  Base theme
+*  Copyright (c) Vyacheslav Khorkov 2020
+*/
+
+pre {
+    margin-bottom: 1.5em;
+    background-color: #483431;
+    padding: 16px 0;
+    border-radius: 8px;
+}
+
+pre code {
+    font-family: monospace;
+    display: block;
+    padding: 0 20px;
+    color: #e6e1c4;
+    line-height: 1.4em;
+    font-size: 1em;
+    overflow-x: auto;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+}
+
+pre code .keyword {
+    color: #e86648;
+}
+
+pre code .type {
+    color: #bf89b3;
+}
+
+pre code .call {
+    color: #a1e686;
+}
+
+pre code .property {
+    color: #7daf9c;
+}
+
+pre code .number {
+    color: #6c99bb;
+}
+
+pre code .string {
+    color: #d9d762;
+}
+
+pre code .comment {
+    color: #b3b3b3;
+}
+
+pre code .dotAccess {
+    color: #7daf9c;
+}
+
+pre code .preprocessing {
+    color: #b68a00;
+}
+
+pre code .method {
+    color: #efac32;
+}

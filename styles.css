@@ -1,0 +1,364 @@
+/**
+*  Base theme
+*  Copyright (c) Vyacheslav Khorkov 2020
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #515151;
+    text-align: center;
+    font-family: "Nunito", "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+header {
+    background-color: #202020;
+}
+
+header .wrapper {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+header .site-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.6rem;
+    font-weight: bold;
+    font-family: "Neucha", "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 7px;
+    line-height: 1.5em;
+}
+
+nav li a.selected {
+    text-decoration: underline;
+}
+
+.facade {
+    color: #fff;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avatar {
+    width: 100px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.icons {
+    margin-top: 4px;
+}
+.icons > div {
+    display: inline-block;
+    width: 2rem;
+    text-align: center;
+}
+.icon > img {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.wrapper .item-list {
+    max-width: 45rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper .item-list h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2em;
+    line-height: 2rem;
+}
+
+.date {
+    color: #9a9a9a;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.item-list > li {
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.item-list > li:last-child {
+    margin-bottom: 0;
+}
+
+.item-list h1 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+.item-list h1 a:hover,
+.item-list h1 a:focus {
+    color: #000;
+}
+
+.item-list p {
+    margin-bottom: 0;
+}
+.item-list p a,
+.item-list p a {
+    color: #58afed;
+}
+.item-list p a:hover,
+.item-list p a:focus {
+    text-decoration: underline;
+}
+
+.tag-list {
+    margin-bottom: 0.5rem;
+    margin-right: 2px;
+    display: inline-block;
+}
+.tag-list li {
+    display: inline-block;
+    background-color: #4e92df;
+    padding: 3px 6px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.tag-list li:hover,
+.tag-list li:focus {
+    background-color: #316db0;
+}
+
+.tag-selected {
+    text-align: center;
+    margin-bottom: 0.9rem;
+    margin-top: -1rem;
+}
+
+.item-page .tag-list {
+    display: inline-block;
+}
+
+.content {
+    margin-bottom: 40px;
+    max-width: 47em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+}
+.content h1 {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+}
+.content h2 {
+    margin-top: 2rem;
+}
+.content h3 {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
+.content img {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 0.3rem;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+}
+.content img + p {
+    margin-top: 1rem;
+}
+.content p {
+    margin-bottom: 1rem;
+}
+.content img + description {
+    text-align: center;
+    font-size: 0.8em;
+    display: block;
+}
+.content description {
+    margin-bottom: 1rem;
+}
+.content description a {
+    color: #58afed;
+}
+.content description a:hover,
+.content description a:focus {
+    text-decoration: underline;
+}
+.content img + ul,
+.content img + ol {
+    margin-top: 1rem;
+}
+.content p a,
+.content li a {
+    color: #58afed;
+}
+.content p a:hover,
+.content p a:focus {
+    text-decoration: underline;
+}
+.content blockquote {
+    margin: .8rem 0;
+    border-left: .25rem solid #58afed;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.content blockquote p {
+    margin-bottom: 0rem;
+}
+.content ul,
+.content ol {
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+.content ul > li {
+    margin-bottom: 0rem;
+}
+.content ol > li {
+    margin-bottom: 0.1rem;
+}
+.content ul + p,
+.content ol + p {
+    margin-top: 1rem;
+}
+ul > li::marker {
+    font-weight: bold;
+    color: #58afed;
+}
+.content .tag-list {
+    padding-left: 0rem;
+    margin-bottom: 0.5rem;
+}
+.content pre {
+    margin-bottom: 15px;
+}
+
+.browse-all {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.all-tags li {
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 6px 10px;
+}
+
+footer {
+    font-size: 0.8em;
+    font-family: "Neucha", "PT Sans", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+footer a {
+    color: #58afed;
+    text-decoration: underline;
+}
+.home {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+@media(max-width: 600px) {
+    .wrapper {
+        padding: 40px 20px;
+    }
+    .tag-list {
+        display: block;
+    }
+    .content .tag-list {
+        display: block;
+    }
+}
+
+/* Dark Mode Only */
+body {
+    background-color: #252525;
+}
+
+body,
+header .site-name {
+    color: #ddd;
+}
+
+.item-list h1 a:hover,
+.item-list h1 a:focus {
+    color: #aaa;
+}
+
+.item-list > li {
+    background-color: #202020;
+}
+
+header {
+    #background-color: #000;
+}
+
+.content img {
+    border: 1px solid #222;
+}
+
+.content .tag-list a,
+.tag-list a {
+    color: #222;
+    font-weight: bold;
+}
+
+strong {
+    border-radius: 5px;
+    background-color: #444;
+    padding: 0px 4px;
+    border: 1px solid #222;
+}
+
+footer {
+    color: #ddd;
+}

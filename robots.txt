@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://swiftyfinch.github.io/sitemap.xml
