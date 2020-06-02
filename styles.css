@@ -197,7 +197,7 @@ a {
     line-height: 2rem;
 }
 .content h2 {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 .content h3 {
     margin-top: 2rem;
@@ -336,10 +336,6 @@ header .site-name {
 
 .item-list > li {
     background-color: #202020;
-}
-
-header {
-    #background-color: #000;
 }
 
 .content img {
