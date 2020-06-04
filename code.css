@@ -5,9 +5,10 @@
 
 pre {
     margin-bottom: 1.5em;
-    background-color: #1a1a1a;
+    background-color: #1c1c1c;
     padding: 16px 0;
     border-radius: 8px;
+    box-shadow: inset 0px 0px 2px rgba(0,0,0,0.9);
 }
 
 /** Regular */

@@ -114,11 +114,34 @@ a {
     line-height: 2rem;
 }
 
-.date {
-    color: #9a9a9a;
+.date,
+.time_to_read {
+    color: #bbb;
     font-weight: bold;
     display: inline-block;
     margin-bottom: 0.5rem;
+    background-color: #454545;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-right: 0.3rem;
+}
+.date_icon,
+.time_to_read_icon {
+    display: inline !important;
+    vertical-align: bottom;
+    width: 21px;
+    height: 21px;
+    margin-right: 0.3rem;
+}
+.time_to_read_icon {
+    margin-left: -0.25rem !important;
+    margin-right: 0.25rem !important;
+}
+.content .date_icon,
+.content .time_to_read_icon {
+    border: 0px;
+    margin: 0 0.3rem 0 0;
 }
 
 .item-list > li {
@@ -156,7 +179,7 @@ a {
 
 .tag-list {
     margin-bottom: 0.5rem;
-    margin-right: 2px;
+    margin-right: 0.1rem;
     display: inline-block;
 }
 .tag-list li {
@@ -194,7 +217,7 @@ a {
 .content h1 {
     font-size: 2.3rem;
     margin-bottom: 0.5rem;
-    line-height: 2rem;
+    line-height: 2.3rem;
 }
 .content h2 {
     margin-top: 4rem;
