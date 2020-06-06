@@ -120,11 +120,13 @@ a {
     font-weight: bold;
     display: inline-block;
     margin-bottom: 0.5rem;
-    background-color: #454545;
-    padding: 3px 6px;
+    background-color: #2f2f2f;
+    padding: 3.6px 6px;
     border-radius: 5px;
     font-size: 0.9rem;
     margin-right: 0.3rem;
+    vertical-align: top;
+    white-space: nowrap
 }
 .date_icon,
 .time_to_read_icon {
@@ -134,14 +136,20 @@ a {
     height: 21px;
     margin-right: 0.3rem;
 }
+.date_icon {
+    margin-left: -0.2rem !important;
+}
 .time_to_read_icon {
-    margin-left: -0.25rem !important;
-    margin-right: 0.25rem !important;
+    margin-left: -0.35rem !important;
+    margin-right: 0.15rem !important;
 }
 .content .date_icon,
 .content .time_to_read_icon {
     border: 0px;
     margin: 0 0.3rem 0 0;
+}
+.time_to_read_text {
+    margin-right: 3px;
 }
 
 .item-list > li {
@@ -372,10 +380,16 @@ header .site-name {
 }
 
 strong {
-    border-radius: 5px;
-    background-color: #444;
-    padding: 0px 4px;
-    border: 1px solid #222;
+    color: #eee;
+}
+
+.reaction {
+    display: inline !important;
+    vertical-align: middle;
+    width: 1.2em;
+    height: auto;
+    margin: 0 0 0.3rem;
+    border: none !important;
 }
 
 footer {
