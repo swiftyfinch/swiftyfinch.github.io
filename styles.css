@@ -197,16 +197,16 @@ a {
     margin-right: 0.1rem;
     display: inline-block;
 }
-.tag-list li {
+.tag-list div {
     display: inline-block;
     background-color: #4e92df;
     padding: 3px 6px;
     border-radius: 5px;
     margin-right: 5px;
 }
-.tag-list li:hover,
-.tag-list li:focus {
-    background-color: #316db0;
+.tag-list div:hover,
+.tag-list div:focus {
+    opacity: 0.7;
 }
 
 .tag-selected {
