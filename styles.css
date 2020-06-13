@@ -406,6 +406,9 @@ strong {
     margin: 0 0 0.3rem;
     border: none !important;
 }
+h1 .reaction {
+    width: 0.9em;
+}
 
 footer {
     color: #ddd;
