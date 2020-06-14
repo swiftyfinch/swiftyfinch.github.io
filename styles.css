@@ -410,6 +410,23 @@ h1 .reaction {
     width: 0.9em;
 }
 
+s {
+    text-decoration-color: #e86648cc;
+    text-decoration-thickness: 1.5px;
+}
+
 footer {
     color: #ddd;
 }
+
+/* Preview */
+/* body {
+    zoom: 65%;
+}
+.item-list > li {
+    margin-bottom: 60px;
+    width: 400px;
+}
+.wrapper .item-list h1 {
+    margin-bottom: 0.2rem;
+} */
