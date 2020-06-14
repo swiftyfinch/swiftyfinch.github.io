@@ -1,2 +1,6 @@
 User-agent: *
 Sitemap: https://swiftyfinch.github.io/sitemap.xml
+Disallow: /reactions/
+Disallow: /site/
+Disallow: /posts/
+Disallow: /tags/
