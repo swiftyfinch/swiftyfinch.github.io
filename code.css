@@ -21,13 +21,30 @@ pre {
 pre code {
     font-family: "SF Mono", monospace;
     display: block;
-    padding: 0 20px;
     color: #e6e1c4;
     line-height: 1.3rem;
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     overflow-x: auto;
     white-space: pre;
     -webkit-overflow-scrolling: touch;
+}
+
+
+pre:before {
+  counter-reset: line;
+}
+pre div.line {
+  counter-increment: line;
+}
+
+pre div.line::before {
+  content: counter(line);
+  display: inline-block;
+  width: 2em;
+  text-align: right;
+  border-right: 2px solid #333;
+  padding: 0 0.7em;
+  margin-right: 1em;
 }
 
 pre code .keyword {
