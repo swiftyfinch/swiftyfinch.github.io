@@ -29,7 +29,6 @@ pre code {
     -webkit-overflow-scrolling: touch;
 }
 
-
 pre:before {
   counter-reset: line;
 }
@@ -46,6 +45,14 @@ pre div.line::before {
   padding: 0 0.7em;
   margin-right: 1em;
 }
+
+pre code.terminal {
+    padding-left: 20px;
+}
+pre code.terminal div.line::before {
+    content: none;
+}
+
 
 pre code .keyword {
     color: #e86648;
@@ -85,4 +92,14 @@ pre code .preprocessing {
 
 pre code .method {
     color: #efac32;
+}
+
+pre code .green {
+    color: #43C633;
+}
+pre code .yellow {
+    color: #B9B62F;
+}
+pre code .red {
+    color: #D64A2E;
 }
