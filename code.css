@@ -79,7 +79,7 @@ pre code .string {
 }
 
 pre code .comment {
-    color: #b3b3b3;
+    color: #777;
 }
 
 pre code .dotAccess {
@@ -102,4 +102,7 @@ pre code .yellow {
 }
 pre code .red {
     color: #D64A2E;
+}
+pre code .blue {
+    color: #7BC8FF;
 }
