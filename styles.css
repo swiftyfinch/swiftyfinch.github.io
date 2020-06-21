@@ -283,6 +283,8 @@ a {
 .content li a {
     color: #58afed;
 }
+.content li a:hover,
+.content li a:focus,
 .content p a:hover,
 .content p a:focus {
     text-decoration: underline;
