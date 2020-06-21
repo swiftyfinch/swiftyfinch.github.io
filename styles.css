@@ -433,8 +433,10 @@ footer {
 }
 .item-list > li {
     margin-bottom: 60px;
+    padding: 14px 20px;
     width: 400px;
 }
 .wrapper .item-list h1 {
     margin-bottom: 0.2rem;
+    line-height: 1.3rem;
 } */
