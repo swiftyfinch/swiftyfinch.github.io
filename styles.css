@@ -100,6 +100,10 @@ h1 {
 h2 {
     margin: 20px 0;
 }
+h2 a:hover,
+h2 a:focus {
+    opacity: 0.8;
+}
 
 a {
     text-decoration: none;
@@ -308,9 +312,16 @@ a {
 .content ol + p {
     margin-top: 1rem;
 }
-ul > li::marker {
+.content ul {
+    list-style: none;
+}
+.content ul li::before {
     font-weight: bold;
     color: #58afed;
+    content: "\2022";
+    display: inline-block;
+    margin-left: -1.1em;
+    width: 1.2em;
 }
 .content .tag-list {
     padding-left: 0rem;
@@ -353,15 +364,9 @@ footer a:focus {
     height: auto;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 900px) {
     .wrapper {
-        padding: 40px 20px;
-    }
-    .tag-list {
-        display: block;
-    }
-    .content .tag-list {
-        display: block;
+      padding: 40px 20px;
     }
 }
 
