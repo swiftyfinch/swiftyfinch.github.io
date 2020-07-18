@@ -82,6 +82,10 @@ pre code .comment {
     color: #777;
 }
 
+pre code .docs {
+    color: #B3B3B3;
+}
+
 pre code .dotAccess {
     color: #7daf9c;
 }
