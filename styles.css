@@ -235,10 +235,6 @@ a {
     margin-bottom: 15px;
     font-size: 1.3em;
 }
-.item-list h1 a:hover,
-.item-list h1 a:focus {
-    color: #000;
-}
 
 .item-list p {
     margin-bottom: 0;
