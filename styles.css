@@ -100,6 +100,35 @@ header .site-name {
     font-family: "Neucha", "PT Sans", Helvetica, Arial, sans-serif;
 }
 
+a.gumroad-button {
+    background-color: #333 !important;
+    background-image: url("https://gumroad.com/button/button_bar.jpg") !important;
+    background-repeat: repeat-x !important;
+    border-radius: 4px !important;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 2px !important;
+    color: #fff !important;
+    display: inline-block !important;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 40px !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a.gumroad-button img {
+    width: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: -3px;
+}
+a.gumroad-button:hover, a.gumroad-button:focus {
+    opacity: 0.6;
+}
+
 nav {
     position: relative;
     left: 60px;
