@@ -320,7 +320,7 @@ a {
     line-height: 2.3rem;
 }
 .content h2 {
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 .content h3 {
     margin-top: 2rem;
@@ -340,6 +340,9 @@ a {
 }
 .content p {
     margin-bottom: 1rem;
+}
+.content p + ul {
+    margin-top: -0.7rem;
 }
 .content img + description {
     text-align: center;

@@ -110,3 +110,24 @@ pre code .red {
 pre code .blue {
     color: #7BC8FF;
 }
+
+pre code .green-circle {
+    color: #43C633;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+pre code .yellow-circle {
+    color: #B9B62F;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+pre code .red-circle {
+    color: #D64A2E;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+pre code .blue-circle {
+    color: #7BC8FF;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
