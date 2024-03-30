@@ -14,10 +14,6 @@ if command -v rugby &> /dev/null; then
 	warning "🏈 Rugby has already been installed."; exit
 fi
 
-# Get the latest version of Rugby
-RUGBY_GIT='https://github.com/swiftyfinch/Rugby'
-LATEST_VERSION=$(git ls-remote -t --sort=v:refname $RUGBY_GIT | sed -ne '$s/.*tags\/\(.*\)/\1/p')
-
 # Get the current machine architecture
 if [[ `arch` = arm64* ]]; then
 	ARCH='arm64'
@@ -28,7 +24,7 @@ fi
 # Download the latest Rugby version for the current machine architecture
 RUGBY_CLT_PATH="$HOME/.rugby/clt"
 rm -rf "$RUGBY_CLT_PATH/downloads" && mkdir -p "$RUGBY_CLT_PATH/downloads" && cd "$RUGBY_CLT_PATH/downloads"
-curl -sSLO "https://github.com/swiftyfinch/Rugby/releases/download/$LATEST_VERSION/$ARCH.zip"
+curl -sSLO "https://github.com/swiftyfinch/Rugby/releases/latest/download/$ARCH.zip"
 unzip -q "$ARCH.zip"
 cp rugby $RUGBY_CLT_PATH && rm -rf "$RUGBY_CLT_PATH/downloads"
 success "🏈 Rugby has been installed ✓"
