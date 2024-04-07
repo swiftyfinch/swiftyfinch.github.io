@@ -27,6 +27,7 @@ XTREE_BIN_PATH="$HOME/.local/bin"
 rm -rf "$XTREE_DOWNLOADS/downloads" && mkdir -p "$XTREE_DOWNLOADS/downloads" && cd "$XTREE_DOWNLOADS/downloads"
 curl -sSLO "https://github.com/swiftyfinch/xtree/releases/latest/download/$ARCH.zip"
 unzip -q "$ARCH.zip"
+mkdir -p $XTREE_BIN_PATH
 cp xtree $XTREE_BIN_PATH && rm -rf "$XTREE_DOWNLOADS/downloads"
 success "🌳 xtree has been installed ✓"
 
