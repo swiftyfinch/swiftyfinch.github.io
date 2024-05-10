@@ -133,7 +133,7 @@ nav {
     position: relative;
     left: 60px;
     bottom: 68px;
-    margin-top: -20px;
+    margin-top: -23px;
 }
 
 nav div {
@@ -165,7 +165,7 @@ nav div:focus {
     margin-bottom: 7px;
 }
 .icons {
-    margin-top: 0px;
+    margin-top: 3px;
 }
 .icons > div {
     display: inline-block;
@@ -175,6 +175,9 @@ nav div:focus {
 .icon > img {
     width: 20px;
     height: 20px;
+}
+.icon:hover, .icon:focus {
+    opacity: 0.6;
 }
 
 h1 {
