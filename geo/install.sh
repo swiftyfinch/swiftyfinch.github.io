@@ -10,10 +10,6 @@ warning() {
 	printf "\e[33m$1\e[m\n"
 }
 
-if command -v geo &> /dev/null; then
-	warning "🐚 geo has already been installed."; exit
-fi
-
 # Get the current machine architecture
 if [[ `arch` = arm64* ]]; then
 	ARCH='arm64'
